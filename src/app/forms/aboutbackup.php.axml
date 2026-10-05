@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="about">
+    <method name="doButtonClickLeft">
+      <browse url="https://dalink.to/expert5_228" url-type="string"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <browse url="https://www.expert5site.tilda.ws" url-type="string"/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <browse url="https://www.youtube.com/@expert5_228" url-type="string"/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <browse url="https://t.me/expert5_228" url-type="string"/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <showForm form="NewFunctions" form-type="form"/>
+    </method>
+  <method name="doButton5ClickLeft">
+      <browse url="https://www.expert5site.tilda.ws/progiotexpert5" url-type="string"/>
+    </method>
+  
+  <method name="doButton7ClickLeft">
+      <showForm form="DayTip" form-type="form"/>
+    </method>
+  </class>
+</root>

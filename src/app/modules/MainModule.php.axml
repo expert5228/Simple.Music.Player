@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainModule">
+    
+  <method name="doPlayerError">
+      <message kind="ERROR" kind-type="string" value="Ошибка воспризведения" value-type="string" wait="" wait-type=""/>
+    </method>
+  </class>
+</root>

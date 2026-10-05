@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="136" prefWidth="424" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/gimp-2.10_Zp5DybiryT.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="56" layoutY="12" prefHeight="22.611328125" prefWidth="205.59375" styleClass="label " text="Simple Music Player (S.M.P)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="17"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="48" prefHeight="40" prefWidth="256" styleClass="label " text="Версия 1.5. Умеет только проигрывать музыку и больше ничего." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="104" prefHeight="25" prefWidth="160" styleClass="button " text="ПОДДЕРЖАТЬ АВТОРА" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" tooltipText="" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="304" layoutY="104" prefHeight="25" prefWidth="56" styleClass="button " text="Сайт" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button3" layoutX="176" layoutY="104" prefHeight="25" prefWidth="56" styleClass="button " text="ТГК" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button4" layoutX="232" layoutY="104" prefHeight="25" prefWidth="72" styleClass="button " text="YouTube" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button5" layoutX="296" layoutY="24" prefHeight="25" prefWidth="64" styleClass="button " text="Обновить" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="10"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button6" layoutX="360" layoutY="24" prefHeight="25" prefWidth="64" styleClass="button " text="Что нового" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="9"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button7" layoutX="360" layoutY="0" prefHeight="25" prefWidth="64" styleClass="button " text="Совет дня" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="9"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="88" orientation="HORIZONTAL" prefHeight="8" prefWidth="408" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button8" layoutX="360" layoutY="104" prefHeight="25" prefWidth="56" styleClass="button " text="Github" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button9" layoutX="296" layoutY="0" prefHeight="25" prefWidth="64" styleClass="button " text="Лицензия" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="10"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104" prefWidth="272" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="120" layoutY="40" opacity="0.5" prefHeight="10.640625" prefWidth="40.40625" styleClass="label " text="Перемотка" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="8"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="184" layoutY="54" opacity="0.5" prefHeight="10.640625" prefWidth="38.453125" styleClass="label " text="Громкость" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="8"/>
+      </font>
+    </LabelEx>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="8" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="216" promptText="Путь к аудио файлу" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="64" prefHeight="32" prefWidth="40" styleClass="button " text="Play" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" tooltipText="Стоп" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" tooltipText="О программе" visible="1"/>
+    <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="152" layoutY="88" prefHeight="17" prefWidth="112" styleClass="label " text="1.5 by expert5" textAlignment="LEFT" textFill="#999999" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" tooltipText="О программе" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="232" layoutY="8" prefHeight="32" prefWidth="32" styleClass="button " text="..." textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" tooltipText="Выбрать аудиофайл" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button4" layoutX="88" layoutY="64" prefHeight="32" prefWidth="48" styleClass="button " text="Pause" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" tooltipText="Пауза" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="8" layoutY="64" prefHeight="32" prefWidth="41" styleClass="button " text="Play" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" tooltipText="Играть" visible=""/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="48" layoutY="64" prefHeight="32" prefWidth="41" styleClass="button " text="Stop" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="8" layoutY="45" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="256" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="0"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-slider" tooltipText="Перемотка" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button6" layoutX="264" layoutY="8" prefHeight="32" prefWidth="40" styleClass="button " text="List" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button6" tooltipText="Открыть список песен" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="144" layoutY="72" prefHeight="18.62109375" prefWidth="123.1083984375" styleClass="label " text="Simple Music Player" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="sliderVolume" indicatorPosition="LEFT" layoutX="140" layoutY="60" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="7" prefWidth="124" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider jfx-slider " value="100"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-sliderVolume" tooltipText="Громкость" visible="1"/>
+  </children>
+</AnchorPane>

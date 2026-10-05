@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  <method name="doButtonAltClickLeft">
+      <stopMedia id="player" id-type="object"/>
+    <elementHide object="button5" object-type="object"/>
+    <elementSetValue object="slider" object-type="object" relative="" relative-type="" value="0" value-type="string"/>
+    </method>
+  <method name="doLabelClickLeft">
+      <showForm form="about" form-type="form"/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <showForm form="about" form-type="form"/>
+    </method>
+  
+  <method name="doClose">
+      <stopMedia id="player" id-type="object"/>
+      <applicationShutdown/>
+    </method>
+  
+    
+  
+  <method name="doButton4ClickLeft">
+      <pauseMedia id="player" id-type="object"/>
+    <elementShow object="button5" object-type="object"/>
+    </method>
+  
+  <method name="doButton5ClickLeft">
+      <playMedia id="player" id-type="object"/>
+      <elementHide object="button5" object-type="object"/>
+    <elementFocus object="button" object-type="object"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <elementLoadContent object="player" object-type="object" path="edit" path-type="object" sync="" sync-type=""/>
+    </method>
+  
+  
+  <method name="doButton6ClickLeft">
+      <showForm form="listmusics" form-type="form"/>
+    <elementFocus object="form('listmusics')" object-type="object"/>
+    </method>
+  
+  
+  <method name="doButton6MouseExit">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="264" value-type="integer"/>
+    </method>
+  <method name="doButton6MouseEnter">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="232" value-type="integer"/>
+    </method>
+  
+  </class>
+</root>

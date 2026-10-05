@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <TextArea editable="false" focusTraversable="true" id="textArea" layoutX="8" layoutY="8" prefColumnCount="40" prefHeight="464" prefWidth="624" promptText="" styleClass="text-input text-area " text="Версия 1.5:&#10;Добавленно окно &quot;Совет дня&quot;&#10;Добавленно взаимодействие с ini файлом в будущем будут добовлятся разнообразные настройки и сохранения чего либо&#10;Переработанно окно &quot;О программе&quot;&#10;Не совсем новая функция но Плеер теперь OPENSOURCE и защищен под лицензией GPL. Исходный код можно найти на GitHub&#10;Изменены иконки второстепенных окон (Список песен, О Программе, Что нового?)&#10;Версия 1.4:&#10;Добавлен регулятор громкости&#10;Добавлены небольшие подсказки к слайдерам перемотки и громкости&#10;Исправлены недочеты прошлых версий&#10;Версия 1.3:&#10;Добавлен список песен&#10;Версия 1.2:&#10;Добавлена функция перемотки&#10;Версия 1.1:&#10;Добавлена функция паузы&#10;Добавлена вкладка &quot;Что нового&quot; во вкладку &quot;О Программе&quot;&#10;Добавлена кнопка &quot;Обновить&quot; во вкладку &quot;О Программе&quot;" wrapText="true">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+  </children>
+</AnchorPane>

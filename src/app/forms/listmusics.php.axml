@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="listmusics">
+    <method name="doListViewClickLeft">
+      <elementSetText object="form('MainForm')-&gt;edit" object-type="object" relative="" relative-type="" value="listView" value-type="object"/>
+    <elementFocus object="form('MainForm')" object-type="object"/>
+    </method>
+  </class>
+</root>

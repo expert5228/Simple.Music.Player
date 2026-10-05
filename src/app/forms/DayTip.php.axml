@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="DayTip">
+    <method name="doButtonClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+    <method name="doMoreClickL">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  </class>
+</root>

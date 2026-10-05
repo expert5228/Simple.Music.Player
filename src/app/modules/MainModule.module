@@ -1,0 +1,56 @@
+{
+  "props": {
+    "author": "expert5",
+    "version": "1.5",
+    "description": "Простой проигрыватель музыки"
+  },
+  "components": {
+    "fileChooserAlt": {
+      "type": "script\\FileChooserScript",
+      "x": 208,
+      "y": 32,
+      "props": {
+        "multiple": true,
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "listView",
+        "actionNode": "addsongsbutton"
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 128,
+      "y": 32,
+      "props": {
+        "multiple": false,
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "edit",
+        "actionNode": "button3"
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 48,
+      "y": 32,
+      "props": {
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 272,
+      "y": 32,
+      "props": {
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}
